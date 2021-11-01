@@ -1,0 +1,82 @@
+/* --- DEFAULTS --- */
+html {
+    font-family: Verdana, sans-serif;
+    font-size: 16px;
+    color: black;
+    background-color: lightgray;
+}
+
+section {
+    margin: 2rem 1.5rem;
+}
+
+/* --- TEXT --- */
+/*
+h1 {
+    font-size: 2.27rem;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 1.91rem;
+    font-weight: 300;
+}
+
+div {
+    color: gray;
+    margin: 1rem;
+}
+
+a {
+    font-size: 0.72rem;
+    color: aquamarine;
+}
+*/
+
+/* --- SECTIONS --- */
+/* NAVIGATION */
+nav {
+    width: 100%;
+    height: 4rem;
+    position: fixed;
+    overflow: hidden;
+    box-sizing: border-box;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    z-index: 1000;
+    padding: 0 1.5rem;
+}
+
+/* Logo */
+#logo {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo img {
+    height: 3rem;
+    width: auto;
+}
+
+/* Links */
+#menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+}
+
+/* BANNER */
+
+/* INFO */
+
+/* LEARNING */
+
+/* THESIS */
+
+/* FOOTER */
